@@ -24,7 +24,7 @@ We provide five pretrained weights
 
 ## Out-of-the-box MLM + Visualization Demo
 <p align="center">
-  <img align="middle" src="./assets/mlm.png" alt="MLM + Visualization"/>
+  <img align="middle" src="./assets/show.png" alt="MLM + Visualization"/>
 </p>
 
 
@@ -37,23 +37,9 @@ python demo.py with num_gpus=0 load_path=".\Downloads\vilt_200k_mlm_itm.ckpt"
 ```
 
 """There could be some special **TracebackException** bugs when importing the gradio, and this badwork might be solved throughout git downloading the following url:
- [link](https://github.com/IDSIA/sacred.git)
+ IDSIA [link](https://github.com/IDSIA/sacred.git)
  and then pip install it, tools and concrete method could be found in the ReadME there.
-"""
-
-## Out-of-the-box VQA Demo
-we have changed some pictures from British geography works, and've chosen the index of the word in the sentences.
-<p align="center">
-  <img align="middle" src="./assets/show.png" alt="VQA"/>
-</p>
-
-```bash
-pip install gradio==1.6.4
-python demo_vqa.py with num_gpus=<0 if you have no gpus else 1> load_path="<YOUR_WEIGHT_ROOT>/vilt_vqa.ckpt" test_only=True
-
-ex)
-python38 demo.py with num_gpus=0 load_path="weights/vilt_200k_mlm_itm.ckpt" test_only=True
-```
+""" Marked by IPF
 
 ## Dataset Preparation
 See [`DATA.md`](DATA.md)
