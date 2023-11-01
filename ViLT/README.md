@@ -42,8 +42,9 @@ python demo.py with num_gpus=0 load_path=".\Downloads\vilt_200k_mlm_itm.ckpt"
 """
 
 ## Out-of-the-box VQA Demo
+we have changed some pictures from British geography works, and've chosen the index of the word in the sentences.
 <p align="center">
-  <img align="middle" src="./assets/vqa.png" alt="VQA"/>
+  <img align="middle" src="./assets/show.png" alt="VQA"/>
 </p>
 
 ```bash
